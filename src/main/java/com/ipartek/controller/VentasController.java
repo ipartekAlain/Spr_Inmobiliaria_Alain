@@ -6,9 +6,9 @@ import org.springframework.stereotype.Controller;
 import com.ipartek.service.IViviendaService;
 
 @Controller
-public class AlquilerController {
-
-	 @Autowired
-	 private IViviendaService viviendaServ;
+public class VentasController {
 	
+	@Autowired
+	private IViviendaService viviendaServ;
+
 }
