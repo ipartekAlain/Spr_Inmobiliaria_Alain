@@ -19,5 +19,12 @@ public class MenuController {
 		return "/alquiler";
 		
 	}
+	
+	@RequestMapping("/menu_naves")
+	public String menuNaves()
+	{
+		return "/naves";
+		
+	}
 
 }
