@@ -1,6 +1,7 @@
 package com.ipartek.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -21,7 +22,7 @@ public class MenuController {
 	}
 	
 	@RequestMapping("/menu_naves")
-	public String menuNaves()
+	public String menuNaves(Model model)
 	{
 		return "/naves";
 		
