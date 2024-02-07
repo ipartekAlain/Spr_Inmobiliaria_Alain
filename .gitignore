@@ -26,3 +26,5 @@ target/classes/application.properties
 target/classes/static/styles.css
 target/classes/templates/alquiler.html
 target/classes/templates/home.html
+target/classes/META-INF/maven/com.ipartek/Spr_Inmobiliaria_Alain/pom.properties
+target/classes/application.properties
