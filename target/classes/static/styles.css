@@ -106,3 +106,23 @@ footer {
 	padding: 10px;
 	flex-shrink: 0;
 }
+
+.contenedor_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 15px 15px;
+	grid-auto-flow: row;
+	color:rgb(72, 72, 72);
+	padding: 10px;
+	
+	
+}
+
+article{
+	background-color: rgb(225, 225, 225);
+	padding: 20px;
+	border-radius: 3%;
+	box-shadow: 0 4px 8px rgba(40, 36, 36, 0.3);
+	
+	
+}
